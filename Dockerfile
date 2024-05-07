@@ -6,6 +6,7 @@ WORKDIR /workspace
 
 COPY go.mod .
 COPY go.sum .
+ENV GOPROXY https://goproxy.cn
 
 RUN go mod download
 
