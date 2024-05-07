@@ -10,7 +10,7 @@ on:
 
 env:
   HELM_CHATR: alidns-webhook
-  HELM_REPO: https://wjiec.github.io/alidns-webhook
+  HELM_REPO: https://resource-repo.github.io/alidns-webhook
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

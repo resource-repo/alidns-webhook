@@ -1,8 +1,8 @@
 Alidns-Webhook
 ---
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/wjiec/alidns-webhook)](https://goreportcard.com/report/github.com/wjiec/alidns-webhook)
-[![GitHub license](https://img.shields.io/github/license/wjiec/alidns-webhook.svg)](https://github.com/wjiec/alidns-webhook/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/resource-repo/alidns-webhook)](https://goreportcard.com/report/github.com/resource-repo/alidns-webhook)
+[![GitHub license](https://img.shields.io/github/license/resource-repo/alidns-webhook.svg)](https://github.com/resource-repo/alidns-webhook/blob/main/LICENSE)
 
 ## Overview
 
@@ -21,7 +21,7 @@ If you haven't installed it yet, you can get the installation instructions from 
 If you have Helm, you can deploy the alidns-webhook with the following command:
 ```bash
 helm upgrade --install alidns-webhook alidns-webhook \
-    --repo https://wjiec.github.io/alidns-webhook \
+    --repo https://resource-repo.github.io/alidns-webhook \
     --namespace cert-manager --create-namespace \
     --set groupName=acme.yourcompany.com
 ```
@@ -144,7 +144,7 @@ The following table lists the correspondences between alidns-webhook and k8s ver
 
 ## License
 
-[MIT License](https://github.com/wjiec/alidns-webhook/blob/main/LICENSE)
+[MIT License](https://github.com/resource-repo/alidns-webhook/blob/main/LICENSE)
 
 
 [1]: https://cert-manager.io/docs/installation/

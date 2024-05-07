@@ -17,7 +17,7 @@ certManager:
 replicaCount: 1
 
 image:
-  repository: wjiec/alidns-webhook
+  repository: theloki7/alidns-webhook
   tag: ""
   pullPolicy: IfNotPresent
 

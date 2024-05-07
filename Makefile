@@ -2,7 +2,7 @@ GO ?= $(shell which go)
 OS ?= $(shell $(GO) env GOOS)
 ARCH ?= $(shell $(GO) env GOARCH)
 
-IMAGE_NAME ?= wjiec/alidns-webhook
+IMAGE_NAME ?= theloki7/alidns-webhook
 IMAGE_TAG ?= $(shell cat VERSION)
 
 KUBE_VERSION=1.28.3

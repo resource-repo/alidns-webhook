@@ -1,4 +1,4 @@
-module github.com/wjiec/alidns-webhook
+module github.com/resource-repo/alidns-webhook
 
 go 1.20
 
